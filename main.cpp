@@ -12,5 +12,10 @@ int main()
     //ppppppppppppppppppppppppppppppppppppppppppppp
     array <int,5> y;
 
+    for(int i = 0; i < y.size(); i++)
+        y.at(i) = i;
+
+    for(int i = 0; i < y.size(); i++)
+        cout << y.at(i) << " ";
     return 0;
 }
