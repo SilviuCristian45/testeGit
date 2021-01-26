@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <array>
 using namespace std;
 int main()
 {
@@ -8,6 +9,8 @@ int main()
     for(auto p : x)
         cout << p << " ";
     cout << endl;
+    //ppppppppppppppppppppppppppppppppppppppppppppp
+    array <int,5> y;
 
     return 0;
 }
